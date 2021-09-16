@@ -4,7 +4,7 @@ FROM node:alpine
 #install dependancies
 WORKDIR /usr/loginapp
 COPY ./package.json ./
-RUN npm install --silent
+RUN npm install --no-warnings
 COPY ./ ./
 
 ## Add the wait script to the image
