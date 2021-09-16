@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "mysql-server",
-            "image": "mysql:5.7",
+            "image": "mariadb",
             "hostname": "mysql-server",
             "environment": [
                 {
